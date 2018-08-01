@@ -10,5 +10,6 @@ def display_board(board)
   print " #{board[3]} |  #{board[4]} |  #{board[5]} "
   print line
   print " #{board[6]} |  #{board[7]} |  #{board[8]} "
-  puts line
 end
+
+display_board(board)
