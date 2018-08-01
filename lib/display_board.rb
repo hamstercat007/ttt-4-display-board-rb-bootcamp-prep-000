@@ -2,3 +2,13 @@
 # out the current state.
 
 board = [" "," "," "," "," "," "," "," "," "]
+
+def display_board
+  row =  "   |   |   \n"
+  line =  "-----------\n"
+  print row
+  print line
+  print row
+  print line
+  print row
+end
