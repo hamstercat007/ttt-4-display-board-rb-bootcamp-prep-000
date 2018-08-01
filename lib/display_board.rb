@@ -1,11 +1,11 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-board = [" "," "," "," "," "," "," "," "," "]
+board = ["X","O"," "," "," "," "," "," "," "]
 
 def display_board(board)
-  row =  "   |   |   \n"
-  line =  "-----------\n"
+  puts "#{board[0]}|#{board[1]} |   "
+  puts  "-----------\n"
   print row
   print line
   print row
