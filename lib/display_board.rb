@@ -5,7 +5,7 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 def display_board(board)
   line = "-----------"
-  puts  "#{board[0]} |#{board[1]} |#{board[2]} "
+  puts  " #{board[0]} | #{board[1]} | #{board[2]} "
   puts  line
   print " #{board[3]} | #{board[4]} | #{board[5]} "
   print line
